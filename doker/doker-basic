@@ -1,0 +1,101 @@
+# Docker 基礎学習ログ
+
+**学習日:** 2026-08-17
+**テーマ:** Docker の基本概念(Rails + React ポートフォリオ開発に向けて)
+
+---
+
+## 学んだこと
+
+### 1. イメージとコンテナの違い
+
+- **イメージ**:アプリの実行環境を固めた「設計図・雛形」
+- **コンテナ**:イメージから実際に起動された「実行中のインスタンス」
+- 例え:イメージ = クッキーの型、コンテナ = 型から作られたクッキーそのもの
+
+### 2. Dockerfile と docker-compose.yml の役割の違い
+
+| ファイル | 役割 |
+|---|---|
+| `Dockerfile` | 1つのコンテナ(例:Railsアプリ)をどう作るかの手順書 |
+| `docker-compose.yml` | 複数のコンテナ(Rails + React + DB など)をまとめて起動・連携させる設定 |
+
+### 3. よく使うコマンド
+
+```bash
+docker compose up              # 起動
+docker compose up -d           # バックグラウンドで起動
+docker compose up --build      # ビルドしてから起動
+docker compose down            # 停止・削除
+docker compose build           # イメージの再ビルド
+docker compose build --no-cache # キャッシュを無視して完全に作り直す
+docker compose logs -f         # ログ確認
+docker compose exec web bash   # コンテナ内に入る
+docker compose ps              # 起動中のコンテナ確認
+```
+
+### 4. イメージは「クラウドの既製品」+「自分の追加分」
+
+- `FROM ruby:3.3` のように、Docker Hub(クラウド上のイメージ置き場)にある公式イメージを土台として使う
+- その上に `COPY` や `RUN` で自分のアプリ固有の設定・コードを積み重ねてカスタムイメージを作る
+- DB(PostgreSQLなど)は公式イメージをほぼそのまま使うことが多い
+
+### 5. Dockerfile(ビルド時)と volumes(実行時)の違い
+
+- **Dockerfile**:`COPY . .` などでコードをイメージに焼き込む → ビルドした瞬間のスナップショットが固定される
+- **docker-compose.yml の `volumes:`**:ローカルのコードとコンテナ内をリアルタイム同期 → 開発中はコード変更が即反映される
+- 開発中は volumes が効いていて、Dockerfile で焼き込んだ内容を上書きしている状態になっていることが多い
+
+### 6. GitHubからの環境再現手順
+
+```bash
+git clone https://github.com/ユーザー名/リポジトリ名.git
+cd リポジトリ名
+cp .env.example .env   # 必要な場合
+docker compose up --build
+```
+
+- GitHubに載っているのは「設計図」であり、クローンして起動することで、その場でイメージがビルドされ環境が再現される
+- Ruby/Node本体を個別にインストールする必要がない
+
+### 7. Gemfile(依存ライブラリ)を追加した時の挙動
+
+- **開発中の一時反映**:`docker compose exec web bundle install` → コンテナ内だけの一時的な変更、イメージ自体は更新されない
+- **恒久的な反映**:`docker compose build` → Dockerfileの `RUN bundle install` を再実行し、イメージ自体を最新化
+- 一時反映のままコンテナを作り直すと、追加したgemが消える恐れがある
+
+### 8. 再ビルドの負荷について(レイヤーキャッシュ)
+
+- Dockerfileは1行ごとに「レイヤー」として積み重なり、**変更があった行から下だけ**が再実行される
+- Gemfileが変わらなければ `bundle install` はキャッシュが使われ、再ビルドは高速
+- コツ:`COPY Gemfile Gemfile.lock ./` → `RUN bundle install` → `COPY . .` の順に書くことで、コードだけの変更時に bundle install がスキップされる
+
+```dockerfile
+FROM ruby:3.3
+WORKDIR /app
+COPY Gemfile Gemfile.lock ./
+RUN bundle install
+COPY . .
+```
+
+---
+
+## つまずいた点・気づき
+
+- 「コンテナ内でその場で動くようにできる」ことと「Dockerfileが更新されている」ことは別物、という感覚がやや紛らわしかった
+- イメージとコンテナの状態がズレる、という感覚を持てたのが理解の分岐点だった
+
+---
+
+## 次回やること
+
+- [ ] Rails + React + PostgreSQL の docker-compose.yml を実際に書いてみる
+- [ ] `docker compose exec web rails db:create` などDB周りのコマンドを試す
+- [ ] ビルドキャッシュが実際にどう効くか、Gemfile変更前後でビルド時間を比較してみる
+- [ ] Claude Codeにレビューしてもらいながら、実際のDockerfileを作成する
+
+---
+
+## 参考にした概念・キーワード
+
+`Docker Hub` / `レイヤーキャッシュ` / `バインドマウント(volumes)` / `Dockerfile` / `docker-compose.yml` / `イメージビルド`
