@@ -13,6 +13,10 @@
 ### React
 - (準備中)
 
+### Ruby
+- [Ruby学習の進捗・問題一覧](./ruby/README.md)
+- [2026-08-20 Ruby基礎：変数と文字列](./ruby/notes/2026-08-20_ruby-basics.md)
+
 ### その他
 - (準備中)
 
