@@ -22,4 +22,4 @@ end
 
 user1 = User.new("John")
 user2 = User.new("Jane")
-puts "登録ユーザー人数: #{User.count}人"
+puts "登録ユーザー数: #{User.count}人"

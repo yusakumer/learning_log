@@ -21,10 +21,13 @@ Ruby の基礎を、問題を解きながら練習するためのディレクト
 - [x] 08 例外処理
 - [x] 09 クラスとインスタンス
 - [x] 10 attr_accessor
-- [ ] 11 クラスメソッド
+- [x] 11 クラスメソッド
 - [x] 12 継承
 - [x] 13 メソッドのオーバーライドと super
-- [ ] 14 モジュールと include
+- [x] 14 モジュールと include
+- [x] 15 定数
+- [ ] 16 標準入力と標準出力
+- [ ] 17 Paiza風問題 1：数値の合計
 
 ## 問題一覧
 
@@ -42,6 +45,9 @@ Ruby の基礎を、問題を解きながら練習するためのディレクト
 - [12 継承](./12_継承/problem.md)
 - [13 メソッドのオーバーライドとsuper](./13_メソッドのオーバーライドとsuper/problem.md)
 - [14 モジュールとinclude](./14_モジュールとinclude/problem.md)
+- [15 定数](./15_定数/problem.md)
+- [16 標準入力と標準出力](./16_標準入力と標準出力/problem.md)
+- [17 Paiza風問題 1：数値の合計](./17_paiza風_数値の合計/problem.md)
 
 ## 学習ログ
 
@@ -56,3 +62,6 @@ Ruby の基礎を、問題を解きながら練習するためのディレクト
 - [2026-09-01 Ruby基礎：attr_accessor](./notes/2026-09-01_ruby-attr-accessor.md)
 - [2026-09-03 Ruby基礎：継承](./notes/2026-09-03_ruby-inheritance.md)
 - [2026-09-03 Ruby基礎：メソッドのオーバーライドとsuper](./notes/2026-09-03_ruby-overriding-and-super.md)
+- [2026-09-03 Ruby基礎：モジュールとinclude](./notes/2026-09-03_ruby-modules-and-include.md)
+- [2026-09-05 Ruby基礎：クラスメソッド](./notes/2026-09-05_ruby-class-methods.md)
+- [2026-09-05 Ruby基礎：定数](./notes/2026-09-05_ruby-constants.md)

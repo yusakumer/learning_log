@@ -26,6 +26,9 @@
 - [2026-09-01 Ruby基礎：attr_accessor](./ruby/notes/2026-09-01_ruby-attr-accessor.md)
 - [2026-09-03 Ruby基礎：継承](./ruby/notes/2026-09-03_ruby-inheritance.md)
 - [2026-09-03 Ruby基礎：メソッドのオーバーライドとsuper](./ruby/notes/2026-09-03_ruby-overriding-and-super.md)
+- [2026-09-03 Ruby基礎：モジュールとinclude](./ruby/notes/2026-09-03_ruby-modules-and-include.md)
+- [2026-09-05 Ruby基礎：クラスメソッド](./ruby/notes/2026-09-05_ruby-class-methods.md)
+- [2026-09-05 Ruby基礎：定数](./ruby/notes/2026-09-05_ruby-constants.md)
 
 ### その他
 - (準備中)
