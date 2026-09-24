@@ -27,7 +27,11 @@ Ruby の基礎を、問題を解きながら練習するためのディレクト
 - [x] 14 モジュールと include
 - [x] 15 定数
 - [ ] 16 標準入力と標準出力
-- [ ] 17 Paiza風問題 1：数値の合計
+- [x] 17 Paiza風問題 1：数値の合計
+- [x] 18 Paiza風問題 2：最大値を見つける
+- [x] 19 Paiza風問題 3：条件に合う数を数える
+- [x] 20 Paiza風問題 4：偶数と奇数の合計
+- [ ] 21 Paiza風問題 5：最大値の位置
 
 ## 問題一覧
 
@@ -48,6 +52,10 @@ Ruby の基礎を、問題を解きながら練習するためのディレクト
 - [15 定数](./15_定数/problem.md)
 - [16 標準入力と標準出力](./16_標準入力と標準出力/problem.md)
 - [17 Paiza風問題 1：数値の合計](./17_paiza風_数値の合計/problem.md)
+- [18 Paiza風問題 2：最大値を見つける](./18_paiza風_最大値/problem.md)
+- [19 Paiza風問題 3：条件に合う数を数える](./19_paiza風_条件に合う数を数える/problem.md)
+- [20 Paiza風問題 4：偶数と奇数の合計](./20_paiza風_偶数と奇数の合計/problem.md)
+- [21 Paiza風問題 5：最大値の位置](./21_paiza風_最大値の位置/problem.md)
 
 ## 学習ログ
 
@@ -65,3 +73,7 @@ Ruby の基礎を、問題を解きながら練習するためのディレクト
 - [2026-09-03 Ruby基礎：モジュールとinclude](./notes/2026-09-03_ruby-modules-and-include.md)
 - [2026-09-05 Ruby基礎：クラスメソッド](./notes/2026-09-05_ruby-class-methods.md)
 - [2026-09-05 Ruby基礎：定数](./notes/2026-09-05_ruby-constants.md)
+- [2026-09-08 Ruby基礎：Paiza風問題 1：数値の合計](./notes/2026-09-08_ruby-paiza-sum.md)
+- [2026-09-14 Ruby基礎：Paiza風問題 2：最大値を見つける](./notes/2026-09-14_ruby-paiza-maximum.md)
+- [2026-09-14 Ruby基礎：Paiza風問題 3：条件に合う数を数える](./notes/2026-09-14_ruby-paiza-condition-count.md)
+- [2026-09-24 Ruby基礎：Paiza風問題 4：偶数と奇数の合計](./notes/2026-09-24_ruby-paiza-even-odd-sums.md)

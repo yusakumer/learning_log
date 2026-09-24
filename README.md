@@ -29,6 +29,10 @@
 - [2026-09-03 Ruby基礎：モジュールとinclude](./ruby/notes/2026-09-03_ruby-modules-and-include.md)
 - [2026-09-05 Ruby基礎：クラスメソッド](./ruby/notes/2026-09-05_ruby-class-methods.md)
 - [2026-09-05 Ruby基礎：定数](./ruby/notes/2026-09-05_ruby-constants.md)
+- [2026-09-08 Ruby基礎：Paiza風問題 1：数値の合計](./ruby/notes/2026-09-08_ruby-paiza-sum.md)
+- [2026-09-14 Ruby基礎：Paiza風問題 2：最大値を見つける](./ruby/notes/2026-09-14_ruby-paiza-maximum.md)
+- [2026-09-14 Ruby基礎：Paiza風問題 3：条件に合う数を数える](./ruby/notes/2026-09-14_ruby-paiza-condition-count.md)
+- [2026-09-24 Ruby基礎：Paiza風問題 4：偶数と奇数の合計](./ruby/notes/2026-09-24_ruby-paiza-even-odd-sums.md)
 
 ### その他
 - (準備中)
