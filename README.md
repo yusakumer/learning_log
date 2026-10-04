@@ -33,6 +33,9 @@
 - [2026-09-14 Ruby基礎：Paiza風問題 2：最大値を見つける](./ruby/notes/2026-09-14_ruby-paiza-maximum.md)
 - [2026-09-14 Ruby基礎：Paiza風問題 3：条件に合う数を数える](./ruby/notes/2026-09-14_ruby-paiza-condition-count.md)
 - [2026-09-24 Ruby基礎：Paiza風問題 4：偶数と奇数の合計](./ruby/notes/2026-09-24_ruby-paiza-even-odd-sums.md)
+- [2026-09-24 Ruby基礎：Paiza風問題 5：最大値の位置](./ruby/notes/2026-09-24_ruby-paiza-max-position.md)
+- [2026-09-26 Ruby基礎：Paiza風問題 6：目標に達する日](./ruby/notes/2026-09-26_ruby-paiza-target-day.md)
+- [2026-10-04 Ruby基礎：Paiza風問題 7：文字の出現回数](./ruby/notes/2026-10-04_ruby-paiza-character-count.md)
 
 ### その他
 - (準備中)

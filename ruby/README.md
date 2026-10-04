@@ -31,7 +31,10 @@ Ruby の基礎を、問題を解きながら練習するためのディレクト
 - [x] 18 Paiza風問題 2：最大値を見つける
 - [x] 19 Paiza風問題 3：条件に合う数を数える
 - [x] 20 Paiza風問題 4：偶数と奇数の合計
-- [ ] 21 Paiza風問題 5：最大値の位置
+- [x] 21 Paiza風問題 5：最大値の位置
+- [x] 22 Paiza風問題 6：目標に達する日
+- [x] 23 Paiza風問題 7：文字の出現回数
+- [ ] 24 Paiza風問題 8：回文判定
 
 ## 問題一覧
 
@@ -56,6 +59,9 @@ Ruby の基礎を、問題を解きながら練習するためのディレクト
 - [19 Paiza風問題 3：条件に合う数を数える](./19_paiza風_条件に合う数を数える/problem.md)
 - [20 Paiza風問題 4：偶数と奇数の合計](./20_paiza風_偶数と奇数の合計/problem.md)
 - [21 Paiza風問題 5：最大値の位置](./21_paiza風_最大値の位置/problem.md)
+- [22 Paiza風問題 6：目標に達する日](./22_paiza風_目標に達する日/problem.md)
+- [23 Paiza風問題 7：文字の出現回数](./23_paiza風_文字の出現回数/problem.md)
+- [24 Paiza風問題 8：回文判定](./24_paiza風_回文判定/problem.md)
 
 ## 学習ログ
 
@@ -77,3 +83,6 @@ Ruby の基礎を、問題を解きながら練習するためのディレクト
 - [2026-09-14 Ruby基礎：Paiza風問題 2：最大値を見つける](./notes/2026-09-14_ruby-paiza-maximum.md)
 - [2026-09-14 Ruby基礎：Paiza風問題 3：条件に合う数を数える](./notes/2026-09-14_ruby-paiza-condition-count.md)
 - [2026-09-24 Ruby基礎：Paiza風問題 4：偶数と奇数の合計](./notes/2026-09-24_ruby-paiza-even-odd-sums.md)
+- [2026-09-24 Ruby基礎：Paiza風問題 5：最大値の位置](./notes/2026-09-24_ruby-paiza-max-position.md)
+- [2026-09-26 Ruby基礎：Paiza風問題 6：目標に達する日](./notes/2026-09-26_ruby-paiza-target-day.md)
+- [2026-10-04 Ruby基礎：Paiza風問題 7：文字の出現回数](./notes/2026-10-04_ruby-paiza-character-count.md)
