@@ -36,6 +36,14 @@
 - [2026-09-24 Ruby基礎：Paiza風問題 5：最大値の位置](./ruby/notes/2026-09-24_ruby-paiza-max-position.md)
 - [2026-09-26 Ruby基礎：Paiza風問題 6：目標に達する日](./ruby/notes/2026-09-26_ruby-paiza-target-day.md)
 - [2026-10-04 Ruby基礎：Paiza風問題 7：文字の出現回数](./ruby/notes/2026-10-04_ruby-paiza-character-count.md)
+- [2026-10-19 Ruby基礎：Paiza風問題 8：回文判定](./ruby/notes/2026-10-19_ruby-paiza-palindrome.md)
+- [2026-10-19 Ruby基礎：Paiza風問題 9：最も多い文字](./ruby/notes/2026-10-19_ruby-paiza-most-common-character.md)
+
+#### 解答レビュー・アドバイス
+
+- [2026-10-04 Paiza風問題 7：使用メソッドとRubyらしい書き方](./ruby/advice/2026-10-04_ruby-paiza-character-count-methods.md)
+- [2026-10-19 Paiza風問題 8：使用メソッドとRubyらしい書き方](./ruby/advice/2026-10-19_ruby-paiza-palindrome-methods.md)
+- [2026-10-19 Paiza風問題 9：使用メソッドとRubyらしい書き方](./ruby/advice/2026-10-19_ruby-paiza-most-common-character-methods.md)
 
 ### その他
 - (準備中)

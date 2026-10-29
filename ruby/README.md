@@ -8,6 +8,7 @@ Ruby の基礎を、問題を解きながら練習するためのディレクト
 2. `answer.rb` に自分で解答を書く
 3. 実行して、期待する出力になるか確認する
 4. 解答後にレビューを受ける
+5. レビュー時に、使ったメソッドの引数・戻り値とRubyらしい書き方の解説を確認する
 
 ## 学習チェックリスト
 
@@ -34,7 +35,9 @@ Ruby の基礎を、問題を解きながら練習するためのディレクト
 - [x] 21 Paiza風問題 5：最大値の位置
 - [x] 22 Paiza風問題 6：目標に達する日
 - [x] 23 Paiza風問題 7：文字の出現回数
-- [ ] 24 Paiza風問題 8：回文判定
+- [x] 24 Paiza風問題 8：回文判定
+- [x] 25 Paiza風問題 9：最も多い文字
+- [ ] 26 Paiza風問題 10：同じ文字の最長連続
 
 ## 問題一覧
 
@@ -62,6 +65,8 @@ Ruby の基礎を、問題を解きながら練習するためのディレクト
 - [22 Paiza風問題 6：目標に達する日](./22_paiza風_目標に達する日/problem.md)
 - [23 Paiza風問題 7：文字の出現回数](./23_paiza風_文字の出現回数/problem.md)
 - [24 Paiza風問題 8：回文判定](./24_paiza風_回文判定/problem.md)
+- [25 Paiza風問題 9：最も多い文字](./25_paiza風_最も多い文字/problem.md)
+- [26 Paiza風問題 10：同じ文字の最長連続](./26_paiza風_同じ文字の最長連続/problem.md)
 
 ## 学習ログ
 
@@ -86,3 +91,11 @@ Ruby の基礎を、問題を解きながら練習するためのディレクト
 - [2026-09-24 Ruby基礎：Paiza風問題 5：最大値の位置](./notes/2026-09-24_ruby-paiza-max-position.md)
 - [2026-09-26 Ruby基礎：Paiza風問題 6：目標に達する日](./notes/2026-09-26_ruby-paiza-target-day.md)
 - [2026-10-04 Ruby基礎：Paiza風問題 7：文字の出現回数](./notes/2026-10-04_ruby-paiza-character-count.md)
+- [2026-10-19 Ruby基礎：Paiza風問題 8：回文判定](./notes/2026-10-19_ruby-paiza-palindrome.md)
+- [2026-10-19 Ruby基礎：Paiza風問題 9：最も多い文字](./notes/2026-10-19_ruby-paiza-most-common-character.md)
+
+## 解答レビュー・アドバイス
+
+- [2026-10-04 Paiza風問題 7：使用メソッドとRubyらしい書き方](./advice/2026-10-04_ruby-paiza-character-count-methods.md)
+- [2026-10-19 Paiza風問題 8：使用メソッドとRubyらしい書き方](./advice/2026-10-19_ruby-paiza-palindrome-methods.md)
+- [2026-10-19 Paiza風問題 9：使用メソッドとRubyらしい書き方](./advice/2026-10-19_ruby-paiza-most-common-character-methods.md)
