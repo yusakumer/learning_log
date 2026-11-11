@@ -37,7 +37,8 @@ Ruby の基礎を、問題を解きながら練習するためのディレクト
 - [x] 23 Paiza風問題 7：文字の出現回数
 - [x] 24 Paiza風問題 8：回文判定
 - [x] 25 Paiza風問題 9：最も多い文字
-- [ ] 26 Paiza風問題 10：同じ文字の最長連続
+- [x] 26 Paiza風問題 10：同じ文字の最長連続
+- [ ] 27 Paiza風問題 11：連続文字の圧縮
 
 ## 問題一覧
 
@@ -67,6 +68,7 @@ Ruby の基礎を、問題を解きながら練習するためのディレクト
 - [24 Paiza風問題 8：回文判定](./24_paiza風_回文判定/problem.md)
 - [25 Paiza風問題 9：最も多い文字](./25_paiza風_最も多い文字/problem.md)
 - [26 Paiza風問題 10：同じ文字の最長連続](./26_paiza風_同じ文字の最長連続/problem.md)
+- [27 Paiza風問題 11：連続文字の圧縮](./27_paiza風_連続文字の圧縮/problem.md)
 
 ## 学習ログ
 
@@ -93,9 +95,11 @@ Ruby の基礎を、問題を解きながら練習するためのディレクト
 - [2026-10-04 Ruby基礎：Paiza風問題 7：文字の出現回数](./notes/2026-10-04_ruby-paiza-character-count.md)
 - [2026-10-19 Ruby基礎：Paiza風問題 8：回文判定](./notes/2026-10-19_ruby-paiza-palindrome.md)
 - [2026-10-19 Ruby基礎：Paiza風問題 9：最も多い文字](./notes/2026-10-19_ruby-paiza-most-common-character.md)
+- [2026-11-11 Ruby基礎：Paiza風問題 10：同じ文字の最長連続](./notes/2026-11-11_ruby-paiza-longest-run.md)
 
 ## 解答レビュー・アドバイス
 
 - [2026-10-04 Paiza風問題 7：使用メソッドとRubyらしい書き方](./advice/2026-10-04_ruby-paiza-character-count-methods.md)
 - [2026-10-19 Paiza風問題 8：使用メソッドとRubyらしい書き方](./advice/2026-10-19_ruby-paiza-palindrome-methods.md)
 - [2026-10-19 Paiza風問題 9：使用メソッドとRubyらしい書き方](./advice/2026-10-19_ruby-paiza-most-common-character-methods.md)
+- [2026-11-11 Paiza風問題 10：使用メソッドとRubyらしい書き方](./advice/2026-11-11_ruby-paiza-longest-run-methods.md)

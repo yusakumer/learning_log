@@ -38,12 +38,14 @@
 - [2026-10-04 Ruby基礎：Paiza風問題 7：文字の出現回数](./ruby/notes/2026-10-04_ruby-paiza-character-count.md)
 - [2026-10-19 Ruby基礎：Paiza風問題 8：回文判定](./ruby/notes/2026-10-19_ruby-paiza-palindrome.md)
 - [2026-10-19 Ruby基礎：Paiza風問題 9：最も多い文字](./ruby/notes/2026-10-19_ruby-paiza-most-common-character.md)
+- [2026-11-11 Ruby基礎：Paiza風問題 10：同じ文字の最長連続](./ruby/notes/2026-11-11_ruby-paiza-longest-run.md)
 
 #### 解答レビュー・アドバイス
 
 - [2026-10-04 Paiza風問題 7：使用メソッドとRubyらしい書き方](./ruby/advice/2026-10-04_ruby-paiza-character-count-methods.md)
 - [2026-10-19 Paiza風問題 8：使用メソッドとRubyらしい書き方](./ruby/advice/2026-10-19_ruby-paiza-palindrome-methods.md)
 - [2026-10-19 Paiza風問題 9：使用メソッドとRubyらしい書き方](./ruby/advice/2026-10-19_ruby-paiza-most-common-character-methods.md)
+- [2026-11-11 Paiza風問題 10：使用メソッドとRubyらしい書き方](./ruby/advice/2026-11-11_ruby-paiza-longest-run-methods.md)
 
 ### その他
 - (準備中)
