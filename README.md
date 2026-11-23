@@ -10,8 +10,18 @@
 ### Rails
 - (準備中)
 
+### JavaScript
+- [JavaScript学習の進捗・問題一覧](./javascript/README.md)
+- [01 配列と条件分岐：合格者を数える](./javascript/01_配列と条件分岐/problem.md)
+- [02 filterで偶数を取り出す](./javascript/02_filterで偶数を取り出す/problem.md)
+
+### TypeScript
+- [TypeScript学習の進捗・問題一覧](./typescript/README.md)
+- [01 型付き関数：商品の合計金額](./typescript/01_型付き関数/problem.md)
+
 ### React
-- (準備中)
+- [React学習の進捗・問題一覧](./react/README.md)
+- [01 props：プロフィールカード](./react/01_propsでプロフィールカード/problem.md)
 
 ### Ruby
 - [Ruby学習の進捗・問題一覧](./ruby/README.md)
