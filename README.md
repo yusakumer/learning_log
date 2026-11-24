@@ -14,6 +14,7 @@
 - [JavaScript学習の進捗・問題一覧](./javascript/README.md)
 - [01 配列と条件分岐：合格者を数える](./javascript/01_配列と条件分岐/problem.md)
 - [02 filterで偶数を取り出す](./javascript/02_filterで偶数を取り出す/problem.md)
+- [03 mapで税込価格を作る](./javascript/03_mapで税込価格を作る/problem.md)
 
 ### TypeScript
 - [TypeScript学習の進捗・問題一覧](./typescript/README.md)
